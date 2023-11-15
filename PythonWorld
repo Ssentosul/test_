@@ -1,0 +1,18 @@
+'''Let's use data types to calculate the tax information for a product in the e-commerce store.
+
+Assign the integer 10 to a variable named total.
+Assign the float 0.3 to a variable named tax_rate.
+Create a variable named tax by multiplying total and tax_rate.
+Update total by adding the tax value to it. You can use the += operator.
+Display total, tax_rate, and tax using print().'''
+
+total=10
+tax_rate=0.3
+
+tax=total*tax_rate
+
+total +=tax
+
+print(total)
+print(tax_rate)
+print(tax)
